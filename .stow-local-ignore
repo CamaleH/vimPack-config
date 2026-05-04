@@ -1,0 +1,8 @@
+# Keep this repository usable as both a source project and a Stow package.
+# Only the XDG payload directories are meant to be linked into $HOME.
+^/\.git$
+^/\.gitignore$
+^/\.agents$
+^/\.codex$
+^/\.stow-local-ignore$
+^/README\.md$

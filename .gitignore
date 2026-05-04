@@ -1,0 +1,4 @@
+.agents/
+.codex/
+.test-xdg/
+nvim.log
