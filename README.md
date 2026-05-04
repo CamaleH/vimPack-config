@@ -9,7 +9,7 @@ The repository is laid out as an XDG config tree and is intended to be installed
 From the repository root:
 
 ```sh
-stow -S --no-folding .
+stow -S --no-folding -t $HOME .
 ```
 
 This links `.config/nvim` into `XDG_CONFIG_HOME`, usually `~/.config/nvim`.
